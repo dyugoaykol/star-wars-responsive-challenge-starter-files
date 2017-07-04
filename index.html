@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>Star Wars Responsive Challenge</title>
 
   <!-- Responsive viewport tag, tells small screens that it's responsive -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
+  <meta name="description" content="Star wars characters trump cards with full bio data with digitally printed order now !">
   <!-- Normalize.css, a cross-browser reset file -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.css" rel="stylesheet">
 
@@ -14,9 +15,81 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
 
   <!-- Stylesheets -->
-
+  <link rel="stylesheet" href="styles/float-grid.css" />
+  <link rel="stylesheet" href="styles/main.css" />
 </head>
-<body>
 
+<body>
+  <header>
+    <div class="row">
+      <div class="col-4">
+        <h1>Star Wars Characters</h1>
+        <h6>Incomplete list</h6>
+      </div>
+    </div>
+  </header>
+  <main class="main">
+
+    <div class="row">
+      <div class="col-4">
+        <section class="character">
+          <img src="images/rey_square.png" alt="rey">
+          <section class="about">
+            <div class="name">Ray</div>
+            <div class="desc">Protagonist, from Tatooine</div>
+          </section>
+        </section>
+      </div>
+      <div class="col-4">
+        <section class="character">
+          <img src="images/finn_square.png" alt="finn">
+          <section class="about">
+            <div class="name">Finn</div>
+            <div class="desc">Strom Trooper, befriends Ray </div>
+          </section>
+        </section>
+      </div>
+      <div class="col-4">
+        <section class="character">
+          <img src="images/kylo_square.png" alt="kylo">
+          <section class="about">
+            <div class="name">Kylo</div>
+            <div class="desc">Main villian, or is he? </div>
+          </section>
+        </section>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-4">
+        <section class="character">
+          <img src="images/poe_square.png" alt="poe">
+          <section class="about">
+            <div class="name">Poe</div>
+            <div class="desc">Neutral Pilot </div>
+          </section>
+        </section>
+      </div>
+      <div class="col-4">
+        <section class="character">
+          <img src="images/chewbacca_square.png" alt="chewbacca" />
+          <section class="about">
+            <div class="name">Chewbacaa</div>
+            <div class="desc">A great first mate</div>
+          </section>
+        </section>
+      </div>
+      <div class="col-4">
+        <section class="character">
+          <img src="images/yoda_square.png" alt="yoda">
+          <section class="about">
+            <div class="name">Yoda</div>
+            <div class="desc">Wise old Jedi master </div>
+          </section>
+        </section>
+      </div>
+    </div>
+  </main>
 </body>
+
 </html>

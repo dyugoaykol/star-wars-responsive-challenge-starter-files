@@ -1,0 +1,44 @@
+
+ main.row 
+{
+    height: 200px;
+    text-align: center;
+    padding-top: 20px;
+}
+header
+{
+    width:100%;
+    background-color: orange;
+}
+
+header h1
+{
+    font-size: 22px;
+    margin-bottom: 0px;
+}
+header h6
+{
+    margin-top:0px;
+}
+.character
+{
+    border:1px solid #E0E0E0;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.character img
+{
+    width: 100%;
+    
+}
+
+.about
+{
+    margin: 20px;
+}
+.name
+{
+    font-weight: bold;
+    margin-bottom:10px;
+}
